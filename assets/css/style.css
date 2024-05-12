@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: #edf2f4;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  height: 80px;
+  background: #2b2d42;
+}
+
+.navbar {
+  flex: 1;
+}
+
+.navbrand a {
+  font-size: 20px;
+  color: #fff;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 800;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+
+.navbar ul a {
+  font-family: "Nunito Sans", sans-serif;
+  color: #fff;
+  border-bottom: 2px solid #2b2d42;
+  transition: ease 0.2s;
+}
+
+.navbar ul a:hover {
+  border-bottom: 2px solid #ef233c;
+  transition: ease 0.2s;
+}
+
+.action-btn {
+  display: flex;
+  gap: 16px;
+}
+
+.primary-btn {
+  color: #fff;
+  font-family: "Nunito Sans", sans-serif;
+  background: #ef233c;
+  border: 1px solid #ef233c;
+  padding: 5px 25px;
+  border-radius: 3px;
+  transition: ease 0.2s;
+}
+
+.primary-btn:hover {
+  background: #d11026;
+  border: 1px solid #d11026;
+  transition: ease 0.2s;
+  border-radius: 0;
+}
+
+.primary-btn-outlined {
+  color: #fff;
+  font-family: "Nunito Sans", sans-serif;
+  border: 1px solid #ef233c;
+  padding: 5px 25px;
+  border-radius: 3px;
+  transition: ease 0.2s;
+}
+
+.primary-btn-outlined:hover {
+  border: 1px solid #ef233c;
+  background: #ef233c;
+  transition: ease 0.2s;
+  border-radius: 0;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: calc(100vh - 200px);
+}
+
+.headline {
+  font-family: "Nunito Sans", sans-serif;
+  color: #2b2d42;
+  font-weight: 800;
+  font-size: 48px;
+}
+
+.subheadline {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #ef233c;
+}
+
+.main-cta {
+  font-size: 18px;
+  padding: 10px 25px;
+}
+
+footer {
+  background: #2b2d42;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  color: #fff;
+  font-family: "Nunito Sans", sans-serif;
+}
