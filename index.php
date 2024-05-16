@@ -19,16 +19,16 @@
     <nav class="navbar">
       <ul>
         <li>
-          <a href="/">Beranda</a>
+          <a href="index.php">Beranda</a>
         </li>
         <li>
-          <a href="/form-daftar.php">Form Pendaftaran</a>
+          <a href="pages/form-daftar.php">Form Pendaftaran</a>
         </li>
       </ul>
     </nav>
     <div class="action-btn">
-      <a href="/login.php" class="nav-link primary-btn">Login</a>
-      <a href="/register.php" class="nav-link primary-btn-outlined">Daftar</a>
+      <a href="pages/login.php" class="nav-link primary-btn">Login</a>
+      <a href="pages/form-daftar.php" class="nav-link primary-btn-outlined">Daftar</a>
     </div>
   </header>
 
@@ -37,7 +37,7 @@
       <h1 class="headline">Penerimaan Mahasiswa Baru</h1>
       <p class="subheadline">Tahun ajaran 2025-2026</p>
       <div class="action-btn">
-        <a href="/form-daftar.php" class="main-cta primary-btn">Daftar Sekarang</a>
+        <a href="pages/form-daftar.php" class="main-cta primary-btn">Daftar Sekarang</a>
       </div>
     </section>
   </div>
